@@ -45,7 +45,7 @@ MonoBehaviour:
   FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -175,12 +175,12 @@ MonoBehaviour:
   BeforeClips: []
   AfterClips: []
   Looping: 1
-  IgnoreEdges: 0
-  ExtrapolateTrajectory: 1
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 1
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -310,12 +310,12 @@ MonoBehaviour:
   BeforeClips: []
   AfterClips: []
   Looping: 1
-  IgnoreEdges: 0
-  ExtrapolateTrajectory: 1
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 1
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -447,10 +447,10 @@ MonoBehaviour:
   Looping: 0
   IgnoreEdges: 0
   ExtrapolateTrajectory: 1
-  FlattenTrajectory: 0
+  FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -575,10 +575,10 @@ MonoBehaviour:
   Looping: 0
   IgnoreEdges: 0
   ExtrapolateTrajectory: 1
-  FlattenTrajectory: 0
+  FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -703,10 +703,10 @@ MonoBehaviour:
   Looping: 0
   IgnoreEdges: 0
   ExtrapolateTrajectory: 1
-  FlattenTrajectory: 0
+  FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -834,7 +834,7 @@ MonoBehaviour:
   FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -966,10 +966,10 @@ MonoBehaviour:
   Looping: 0
   IgnoreEdges: 0
   ExtrapolateTrajectory: 1
-  FlattenTrajectory: 0
+  FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -1094,10 +1094,10 @@ MonoBehaviour:
   Looping: 0
   IgnoreEdges: 0
   ExtrapolateTrajectory: 1
-  FlattenTrajectory: 0
+  FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -1220,12 +1220,12 @@ MonoBehaviour:
   BeforeClips: []
   AfterClips: []
   Looping: 1
-  IgnoreEdges: 0
-  ExtrapolateTrajectory: 1
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 1
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -1360,7 +1360,7 @@ MonoBehaviour:
   FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -1490,12 +1490,12 @@ MonoBehaviour:
   BeforeClips: []
   AfterClips: []
   Looping: 0
-  IgnoreEdges: 0
-  ExtrapolateTrajectory: 1
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 1
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -1669,8 +1669,8 @@ MonoBehaviour:
   - DoNotUse
   - Reserved
   m_favourTagNames:
-  - Favour Tag 1
-  - Favour Tag 2
+  - Walk
+  - Run
   - Favour Tag 3
   - Favour Tag 4
   - Favour Tag 5
@@ -1736,8 +1736,8 @@ MonoBehaviour:
   - User Tag 32
   m_eventNames: []
   m_getBonesByName: 0
-  m_lastSaveDirectory: Assets/aaaa/MxMAnimData
-  m_lastCreatedAnimData: {fileID: 11400000, guid: dafbae9f91c04fd419b95cec7c5b1c4b, type: 2}
+  m_lastSaveDirectory: Assets/aaa/MxMAnimData
+  m_lastCreatedAnimData: {fileID: 11400000, guid: ed2f4b8983b7a164c8a8edf78f5129ca, type: 2}
   m_hideSubAssets: 1
   m_jointVelocityGlobal: 0
   m_compositeCategories:
@@ -1751,12 +1751,12 @@ MonoBehaviour:
     - {fileID: 1654708420252966713}
     - {fileID: 193792011805727347}
     - {fileID: -1185819060124900059}
-    IgnoreEdges_default: 0
-    Extrapolate_default: 1
+    IgnoreEdges_default: 1
+    Extrapolate_default: 0
     FlattenTrajectory_default: 0
     RuntimeSplicing_default: 0
     RequireTags_default: 0
-    FavourTags_default: 0
+    FavourTags_default: 1
   - CatagoryName: Run
     Composites:
     - {fileID: 6810558099345491079}
@@ -1791,7 +1791,7 @@ MonoBehaviour:
     FlattenTrajectory_default: 1
     RuntimeSplicing_default: 0
     RequireTags_default: 0
-    FavourTags_default: 0
+    FavourTags_default: 2
   m_overrideConfigModule: {fileID: 0}
   m_overrideTagModule: {fileID: 0}
   m_overrideEventModule: {fileID: 0}
@@ -1810,9 +1810,9 @@ MonoBehaviour:
   m_compositeFoldout: 1
   m_idleSetFoldout: 1
   m_blendSpaceFoldout: 0
-  m_metaDataFoldout: 0
+  m_metaDataFoldout: 1
   m_tagsFoldout: 0
-  m_favourTagsFoldout: 0
+  m_favourTagsFoldout: 1
   m_userTagsFoldout: 0
   m_eventsFoldout: 0
   m_motionTimingFoldout: 1
@@ -1839,7 +1839,7 @@ MonoBehaviour:
   FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -1969,12 +1969,12 @@ MonoBehaviour:
   BeforeClips: []
   AfterClips: []
   Looping: 0
-  IgnoreEdges: 0
-  ExtrapolateTrajectory: 1
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 1
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -2104,12 +2104,12 @@ MonoBehaviour:
   BeforeClips: []
   AfterClips: []
   Looping: 1
-  IgnoreEdges: 0
-  ExtrapolateTrajectory: 1
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 1
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -2239,12 +2239,12 @@ MonoBehaviour:
   BeforeClips: []
   AfterClips: []
   Looping: 0
-  IgnoreEdges: 0
-  ExtrapolateTrajectory: 1
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 1
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -2379,7 +2379,7 @@ MonoBehaviour:
   FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -2514,7 +2514,7 @@ MonoBehaviour:
   FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -2646,10 +2646,10 @@ MonoBehaviour:
   Looping: 0
   IgnoreEdges: 0
   ExtrapolateTrajectory: 1
-  FlattenTrajectory: 0
+  FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -2774,10 +2774,10 @@ MonoBehaviour:
   Looping: 0
   IgnoreEdges: 0
   ExtrapolateTrajectory: 1
-  FlattenTrajectory: 0
+  FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -2902,10 +2902,10 @@ MonoBehaviour:
   Looping: 0
   IgnoreEdges: 0
   ExtrapolateTrajectory: 1
-  FlattenTrajectory: 0
+  FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -3033,7 +3033,7 @@ MonoBehaviour:
   FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -3168,7 +3168,7 @@ MonoBehaviour:
   FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -3298,12 +3298,12 @@ MonoBehaviour:
   BeforeClips: []
   AfterClips: []
   Looping: 1
-  IgnoreEdges: 0
-  ExtrapolateTrajectory: 1
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 1
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -3435,10 +3435,10 @@ MonoBehaviour:
   Looping: 0
   IgnoreEdges: 0
   ExtrapolateTrajectory: 1
-  FlattenTrajectory: 0
+  FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -3566,7 +3566,7 @@ MonoBehaviour:
   FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -3701,7 +3701,7 @@ MonoBehaviour:
   FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -3833,10 +3833,10 @@ MonoBehaviour:
   Looping: 0
   IgnoreEdges: 0
   ExtrapolateTrajectory: 1
-  FlattenTrajectory: 0
+  FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -3964,7 +3964,7 @@ MonoBehaviour:
   FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -4099,7 +4099,7 @@ MonoBehaviour:
   FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -4231,10 +4231,10 @@ MonoBehaviour:
   Looping: 0
   IgnoreEdges: 0
   ExtrapolateTrajectory: 1
-  FlattenTrajectory: 1
+  FlattenTrajectory: 0
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -4369,7 +4369,7 @@ MonoBehaviour:
   FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -4504,7 +4504,7 @@ MonoBehaviour:
   FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -4636,10 +4636,10 @@ MonoBehaviour:
   Looping: 0
   IgnoreEdges: 0
   ExtrapolateTrajectory: 1
-  FlattenTrajectory: 0
+  FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
@@ -4764,10 +4764,10 @@ MonoBehaviour:
   Looping: 0
   IgnoreEdges: 0
   ExtrapolateTrajectory: 1
-  FlattenTrajectory: 0
+  FlattenTrajectory: 1
   RuntimeSplicing: 0
   GlobalTags: 0
-  GlobalFavourTags: 0
+  GlobalFavourTags: 2
   TagTracks: []
   FavourTagTracks: []
   Events: []
