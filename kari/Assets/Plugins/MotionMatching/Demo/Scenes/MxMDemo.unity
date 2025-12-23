@@ -7956,7 +7956,7 @@ MonoBehaviour:
   m_warpingFoldout: 1
   m_optimisationFoldout: 0
   m_debugFoldout: 0
-  m_callbackFoldout: 1
+  m_callbackFoldout: 0
   m_onSetupComplete:
     m_PersistentCalls:
       m_Calls: []
