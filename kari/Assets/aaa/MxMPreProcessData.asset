@@ -157,7 +157,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &-7473533154978332053
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -292,7 +292,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &-6936124699996033045
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -427,7 +427,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &-6878081060915705833
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -555,143 +555,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
---- !u!114 &-6006160896073032221
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2c4d1acab068a24b9d34a3bbfc801c0, type: 3}
-  m_Name: RunForwardStart
-  m_EditorClassIdentifier: 
-  m_blendSpaceName: 
-  m_clips:
-  - {fileID: 7400000, guid: bcb0bcf8532d8b645a77a1f9985a7bbf, type: 2}
-  m_positions:
-  - {x: 0, y: 0}
-  m_magnitude: {x: 1, y: 1}
-  m_smoothing: {x: 0.25, y: 0.25}
-  m_normalizeTime: 1
-  m_scatterSpace: 0
-  m_scatterSpacing: {x: 0.05, y: 1}
-  m_scatterPositions: []
-  GlobalTags: 0
-  GlobalFavourTags: 0
-  TagTracks: []
-  FavourTagTracks: []
-  LeftFootStepTrack:
-    m_trackId: 0
-    m_trackName: Footstep Left
-    m_clipLength: 2.6999998
-    m_tagPositions: []
-    m_footStepData: []
-  RightFootStepTrack:
-    m_trackId: 1
-    m_trackName: Footstep Right
-    m_clipLength: 2.6999998
-    m_tagPositions: []
-    m_footStepData: []
-  WarpPositionTrack:
-    m_trackId: 2
-    m_trackName: Disable Warp (Position)
-    m_clipLength: 2.6999998
-    m_tagPositions: []
-  WarpRotationTrack:
-    m_trackId: 3
-    m_trackName: Disable Warp (Rotation)
-    m_clipLength: 2.6999998
-    m_tagPositions: []
-  EnableRootMotionTrack:
-    m_trackId: 4
-    m_trackName: Enable Root Motion
-    m_clipLength: 2.6999998
-    m_tagPositions: []
-  PoseFavourTrack:
-    m_trackId: 5
-    m_trackName: Pose Favour
-    m_clipLength: 2.6999998
-    m_tagPositions: []
-    m_values: []
-    m_defaultValue: 1
-  WarpTrajLatTrack:
-    m_trackId: 6
-    m_trackName: Disable Trajectory Warp (Angular)
-    m_clipLength: 2.6999998
-    m_tagPositions: []
-  WarpTrajLongTrack:
-    m_trackId: 7
-    m_trackName: Disable Trajectory Warp (Long)
-    m_clipLength: 2.6999998
-    m_tagPositions: []
-  UserBoolTracks: []
-  Curves: []
-  RuntimePlaybackSpeed: 1
-  UseSpeedMods: 0
-  MotionModifier:
-    MotionSections:
-    - MotionSectionId: 0
-      MotionPresetId: 0
-      ModType: 0
-      SmoothType: 0
-      RawModValue: 1
-      UsePresets: 1
-      EndTime: 2.6999998
-  GeneratedClips: []
-  GeneratedTagTracks: []
-  GeneratedFavourTagTracks: []
-  GeneratedEvents: []
-  GeneratedLeftFootStepTrack:
-    m_trackId: 0
-    m_trackName: 
-    m_clipLength: 0
-    m_tagPositions: []
-    m_footStepData: []
-  GeneratedRightFootStepTrack:
-    m_trackId: 0
-    m_trackName: 
-    m_clipLength: 0
-    m_tagPositions: []
-    m_footStepData: []
-  GeneratedWarpPositionTrack:
-    m_trackId: 0
-    m_trackName: 
-    m_clipLength: 0
-    m_tagPositions: []
-  GeneratedWarpRotationTrack:
-    m_trackId: 0
-    m_trackName: 
-    m_clipLength: 0
-    m_tagPositions: []
-  GeneratedEnableRootMotionTrack:
-    m_trackId: 0
-    m_trackName: 
-    m_clipLength: 0
-    m_tagPositions: []
-  GeneratedPoseFavourTrack:
-    m_trackId: 0
-    m_trackName: 
-    m_clipLength: 0
-    m_tagPositions: []
-    m_values: []
-    m_defaultValue: 0
-  GeneratedWarpTrajLatTrack:
-    m_trackId: 0
-    m_trackName: 
-    m_clipLength: 0
-    m_tagPositions: []
-  GeneratedWarpTrajLongTrack:
-    m_trackId: 0
-    m_trackName: 
-    m_clipLength: 0
-    m_tagPositions: []
-  GeneratedUserBoolTracks: []
-  m_targetPreProcessData: {fileID: 11400000}
-  m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &-4994359846029040280
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -819,7 +683,151 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
+--- !u!114 &-4980136363278683148
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2c4d1acab068a24b9d34a3bbfc801c0, type: 3}
+  m_Name: WalkFWD
+  m_EditorClassIdentifier: 
+  m_blendSpaceName: 
+  m_clips:
+  - {fileID: 7400000, guid: e488364698863124696108b99c749f48, type: 2}
+  - {fileID: 7400000, guid: 4b23fbf07281d4b418a07a556156b6d5, type: 2}
+  - {fileID: 7400000, guid: 73b99c5ffc0427a4c879338b67e2d424, type: 2}
+  - {fileID: 7400000, guid: c8484d69e0185f84f8eef1de72a2b398, type: 2}
+  - {fileID: 7400000, guid: fc7fc6e64d8120e44aaa450a8fa8f4b6, type: 2}
+  m_positions:
+  - {x: 0, y: 0}
+  - {x: -0.6, y: 0}
+  - {x: -1, y: 0}
+  - {x: 0.6, y: 0}
+  - {x: 1, y: -0}
+  m_magnitude: {x: 1, y: 1}
+  m_smoothing: {x: 0.25, y: 0.25}
+  m_normalizeTime: 1
+  m_scatterSpace: 0
+  m_scatterSpacing: {x: 0.05, y: 1}
+  m_scatterPositions: []
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks: []
+  FavourTagTracks: []
+  LeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Left
+    m_clipLength: 3.0000002
+    m_tagPositions: []
+    m_footStepData: []
+  RightFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Right
+    m_clipLength: 3.0000002
+    m_tagPositions: []
+    m_footStepData: []
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 3.0000002
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 3.0000002
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Enable Root Motion
+    m_clipLength: 3.0000002
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 3.0000002
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 3.0000002
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 3.0000002
+    m_tagPositions: []
+  UserBoolTracks: []
+  Curves: []
+  RuntimePlaybackSpeed: 1
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 3.0000002
+  GeneratedClips: []
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 11400000}
+  m_targetAnimModule: {fileID: 0}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &-4590400473238257984
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -947,7 +955,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &-3612465862377568560
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1082,7 +1090,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &-3484752552453585919
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1210,151 +1218,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
---- !u!114 &-2465105332043622927
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2c4d1acab068a24b9d34a3bbfc801c0, type: 3}
-  m_Name: WalkForward_NtrlFaceFwd
-  m_EditorClassIdentifier: 
-  m_blendSpaceName: 
-  m_clips:
-  - {fileID: 7400000, guid: ccc49578fb9222b4abdd4f546c4e2696, type: 2}
-  - {fileID: 7400000, guid: 4b23fbf07281d4b418a07a556156b6d5, type: 2}
-  - {fileID: 7400000, guid: c8484d69e0185f84f8eef1de72a2b398, type: 2}
-  - {fileID: 7400000, guid: 73b99c5ffc0427a4c879338b67e2d424, type: 2}
-  - {fileID: 7400000, guid: fc7fc6e64d8120e44aaa450a8fa8f4b6, type: 2}
-  m_positions:
-  - {x: 0, y: 0}
-  - {x: -0.6, y: 0}
-  - {x: 0.6, y: 0}
-  - {x: -1, y: 0}
-  - {x: 1, y: 0}
-  m_magnitude: {x: 1, y: 1}
-  m_smoothing: {x: 0.25, y: 0.25}
-  m_normalizeTime: 1
-  m_scatterSpace: 0
-  m_scatterSpacing: {x: 0.05, y: 1}
-  m_scatterPositions: []
-  GlobalTags: 0
-  GlobalFavourTags: 0
-  TagTracks: []
-  FavourTagTracks: []
-  LeftFootStepTrack:
-    m_trackId: 0
-    m_trackName: Footstep Left
-    m_clipLength: 13.033334
-    m_tagPositions: []
-    m_footStepData: []
-  RightFootStepTrack:
-    m_trackId: 1
-    m_trackName: Footstep Right
-    m_clipLength: 13.033334
-    m_tagPositions: []
-    m_footStepData: []
-  WarpPositionTrack:
-    m_trackId: 2
-    m_trackName: Disable Warp (Position)
-    m_clipLength: 13.033334
-    m_tagPositions: []
-  WarpRotationTrack:
-    m_trackId: 3
-    m_trackName: Disable Warp (Rotation)
-    m_clipLength: 13.033334
-    m_tagPositions: []
-  EnableRootMotionTrack:
-    m_trackId: 4
-    m_trackName: Enable Root Motion
-    m_clipLength: 13.033334
-    m_tagPositions: []
-  PoseFavourTrack:
-    m_trackId: 5
-    m_trackName: Pose Favour
-    m_clipLength: 13.033334
-    m_tagPositions: []
-    m_values: []
-    m_defaultValue: 1
-  WarpTrajLatTrack:
-    m_trackId: 6
-    m_trackName: Disable Trajectory Warp (Angular)
-    m_clipLength: 13.033334
-    m_tagPositions: []
-  WarpTrajLongTrack:
-    m_trackId: 7
-    m_trackName: Disable Trajectory Warp (Long)
-    m_clipLength: 13.033334
-    m_tagPositions: []
-  UserBoolTracks: []
-  Curves: []
-  RuntimePlaybackSpeed: 1
-  UseSpeedMods: 0
-  MotionModifier:
-    MotionSections:
-    - MotionSectionId: 0
-      MotionPresetId: 0
-      ModType: 0
-      SmoothType: 0
-      RawModValue: 1
-      UsePresets: 1
-      EndTime: 13.033334
-  GeneratedClips: []
-  GeneratedTagTracks: []
-  GeneratedFavourTagTracks: []
-  GeneratedEvents: []
-  GeneratedLeftFootStepTrack:
-    m_trackId: 0
-    m_trackName: 
-    m_clipLength: 0
-    m_tagPositions: []
-    m_footStepData: []
-  GeneratedRightFootStepTrack:
-    m_trackId: 0
-    m_trackName: 
-    m_clipLength: 0
-    m_tagPositions: []
-    m_footStepData: []
-  GeneratedWarpPositionTrack:
-    m_trackId: 0
-    m_trackName: 
-    m_clipLength: 0
-    m_tagPositions: []
-  GeneratedWarpRotationTrack:
-    m_trackId: 0
-    m_trackName: 
-    m_clipLength: 0
-    m_tagPositions: []
-  GeneratedEnableRootMotionTrack:
-    m_trackId: 0
-    m_trackName: 
-    m_clipLength: 0
-    m_tagPositions: []
-  GeneratedPoseFavourTrack:
-    m_trackId: 0
-    m_trackName: 
-    m_clipLength: 0
-    m_tagPositions: []
-    m_values: []
-    m_defaultValue: 0
-  GeneratedWarpTrajLatTrack:
-    m_trackId: 0
-    m_trackName: 
-    m_clipLength: 0
-    m_tagPositions: []
-  GeneratedWarpTrajLongTrack:
-    m_trackId: 0
-    m_trackName: 
-    m_clipLength: 0
-    m_tagPositions: []
-  GeneratedUserBoolTracks: []
-  m_targetPreProcessData: {fileID: 11400000}
-  m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &-2244248798017449890
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1482,7 +1346,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &-1740069466981104747
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1617,7 +1481,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &-1285231675486492655
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1752,7 +1616,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &-1185819060124900059
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1887,7 +1751,151 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
+--- !u!114 &-1145401241630090215
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2c4d1acab068a24b9d34a3bbfc801c0, type: 3}
+  m_Name: RunForward_NtrlFaceFwd
+  m_EditorClassIdentifier: 
+  m_blendSpaceName: 
+  m_clips:
+  - {fileID: 7400000, guid: 25b4a9cf62f38804e97274cd18b46c4a, type: 2}
+  - {fileID: 7400000, guid: af9dca912cfa6c7479c5f80d4c51fa63, type: 2}
+  - {fileID: 7400000, guid: d9c4da369df315540a7a896fe9ebd6f9, type: 2}
+  - {fileID: 7400000, guid: 33b547f1048649d4caafb488fa106f97, type: 2}
+  - {fileID: 7400000, guid: 70a0d34278b229f4186125b9e79df4b3, type: 2}
+  m_positions:
+  - {x: 0, y: 0}
+  - {x: -0.6, y: 0}
+  - {x: -1, y: 0}
+  - {x: 1, y: -0}
+  - {x: 0.6, y: -0}
+  m_magnitude: {x: 1, y: 1}
+  m_smoothing: {x: 0.25, y: 0.25}
+  m_normalizeTime: 1
+  m_scatterSpace: 0
+  m_scatterSpacing: {x: 0.05, y: 1}
+  m_scatterPositions: []
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks: []
+  FavourTagTracks: []
+  LeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Left
+    m_clipLength: 1.1000004
+    m_tagPositions: []
+    m_footStepData: []
+  RightFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Right
+    m_clipLength: 1.1000004
+    m_tagPositions: []
+    m_footStepData: []
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 1.1000004
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 1.1000004
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Enable Root Motion
+    m_clipLength: 1.1000004
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 1.1000004
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 1.1000004
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 1.1000004
+    m_tagPositions: []
+  UserBoolTracks: []
+  Curves: []
+  RuntimePlaybackSpeed: 1
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 1.1000004
+  GeneratedClips: []
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 11400000}
+  m_targetAnimModule: {fileID: 0}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1900,7 +1908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1a8b6a4f5fd9b744a5d48dba91a8d59, type: 3}
   m_Name: MxMPreProcessData
   m_EditorClassIdentifier: 
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
   m_poseInterval: 0.05
   m_trajectoryTimes:
   - -0.66
@@ -2079,17 +2087,17 @@ MonoBehaviour:
   m_animIdleSets:
   - {fileID: -9212832440781230625}
   m_blendSpaces:
-  - {fileID: -6006160896073032221}
-  - {fileID: -2465105332043622927}
+  - {fileID: -1145401241630090215}
+  - {fileID: -4980136363278683148}
   m_motionTimingPresets: {fileID: 0}
   m_embedAnimClipsInAnimData: 0
   m_generateModifiedClipsOnPreProcess: 0
-  m_generalFoldout: 1
+  m_generalFoldout: 0
   m_trajectoryFoldout: 0
   m_poseFoldout: 0
   m_animationFoldout: 1
   m_animModuleFoldout: 0
-  m_compositeFoldout: 0
+  m_compositeFoldout: 1
   m_idleSetFoldout: 1
   m_blendSpaceFoldout: 1
   m_metaDataFoldout: 1
@@ -2233,7 +2241,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &193792011805727347
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2368,7 +2376,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &564562187289735557
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2503,7 +2511,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &1654708420252966713
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2638,7 +2646,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &1973916970386959025
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2773,7 +2781,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &1999182391070612921
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2908,7 +2916,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &2203715922899230379
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3036,7 +3044,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &2343141604805130813
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3164,7 +3172,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &2680259931787683289
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3292,7 +3300,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &3782300121642253474
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3427,7 +3435,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &4905319342054718256
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3562,7 +3570,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &5127898211346270578
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3697,7 +3705,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &5293933690293877094
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3825,7 +3833,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &5434249338099115790
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3960,7 +3968,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &5446421286405377584
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4095,7 +4103,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &6093354889990000899
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4223,7 +4231,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &6448454660765570953
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4358,7 +4366,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &6485229756620215124
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4493,7 +4501,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &6632078606547505799
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4628,7 +4636,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &6810558099345491079
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4763,7 +4771,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &7952119773904487701
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4898,7 +4906,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &8430902879565452419
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5026,7 +5034,7 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
 --- !u!114 &8896771345054218563
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5154,4 +5162,4 @@ MonoBehaviour:
   Curves: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 7528821364605009171, guid: 369d1bf3ffc1b3c428ec2cf3bab1abd1, type: 3}
