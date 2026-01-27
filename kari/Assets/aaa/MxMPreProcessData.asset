@@ -1773,10 +1773,10 @@ MonoBehaviour:
   - {fileID: 7400000, guid: 70a0d34278b229f4186125b9e79df4b3, type: 2}
   m_positions:
   - {x: 0, y: 0}
-  - {x: -0.6, y: 0}
   - {x: -1, y: 0}
-  - {x: 1, y: -0}
+  - {x: -0.6, y: 0}
   - {x: 0.6, y: -0}
+  - {x: 1, y: 0}
   m_magnitude: {x: 1, y: 1}
   m_smoothing: {x: 0.25, y: 0.25}
   m_normalizeTime: 1
